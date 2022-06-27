@@ -14,7 +14,7 @@
     "docker:deploy-local": "graph deploy graphprotocol/soulens --debug --ipfs http://ens-app_ipfs_1:5001 --node http://ens-app_graph-node_1:8020/ --version-label 0.0.1",
     "docker:remove-local": "graph remove graphprotocol/soulens --node http://ens-app_graph-node_1:8020",
     "build": "graph build",
-    "deploy": "graph deploy --product hosted-service topcoder1208/ens-subgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+    "deploy": "graph deploy --product hosted-service topcoder1208/soul-ens --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
     "watch-local": "graph deploy graphprotocol/soulens --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
   "devDependencies": {
