@@ -2,7 +2,7 @@ specVersion: 0.0.3
 description: >-
   A secure & decentralized way to address resources on and off the blockchain
   using simple, human-readable names. Access domains and transfer history.
-repository: "https://github.com/ensdomains/ens-subgraph"
+repository: "https://github.com/topcoder1208/ens-subgraph"
 schema:
   file: ./schema.graphql
 dataSources:
