@@ -10,7 +10,7 @@ dataSources:
     name: ENSRegistry
     network: rinkeby
     source:
-      address: "0xFA6E5d09FeDe3C288Ad08b9ab2E40b0a9708B590"
+      address: "0xA7D8C34b8ccd0eae8E72Fb45802a5Dc63CCa94fd"
       abi: EnsRegistry
     mapping:
       kind: ethereum/events
@@ -82,7 +82,7 @@ dataSources:
     name: BaseRegistrar
     network: rinkeby
     source:
-      address: "0xee08f766614C34cC722f462334A3660d9caEC741"
+      address: "0x5913b71a45379CAD6aF143a09336cEd02DE4F9C8"
       abi: BaseRegistrar
     mapping:
       kind: ethereum/events
